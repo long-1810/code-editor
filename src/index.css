@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* MAIN EDITOR PAGE */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+.setting-container {
+  background-color: black;
+  display: flex;
+  padding: 1rem 2rem;
+  gap: 2rem;
+}
+label {
+
+}
+.option {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+select {
+  outline: none;
+  background-color: #fff;
+}
